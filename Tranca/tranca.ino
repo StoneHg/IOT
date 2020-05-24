@@ -48,7 +48,7 @@ void loop() {
 
 void reset() {
   while (i != 0) {
-    password[i--] = null;
+    password[i--] = NULL;
   }
 
   Serial.println("Cleared...");
